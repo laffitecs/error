@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+body {
+    padding: 0;
+
+}
+.header 
+{
+    background-image: url(/homework6/bg@1X.png);
+    height: 100vh;
+    background-size: cover;
+} 
+.logo {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.info {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+.main-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    animation: moveInLeft 5s ease-in;
+
+}
+
+  
+.sub-title {
+    font-size: 15px;
+    font-weight: lighter;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+}
+.bottom {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 9px 13px;
+    border: #ffffff 2px solid;
+border-radius: 50%;
+text-decoration: none;
+color: #fffffF;
+}
+
+    
+
+
+.text {
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+    color: #464b4f;
+}
+.first{
+    height: 130px;
+}
+ /* .second {
+
+}  */
+.one {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #464b4f;
+}
+.flex {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #464b4f;
+}
+.size {
+    padding: 15px;
+text-align: left;
+color: black;
+}
+
+
+@keyframes moveInleft{
+    0% {      transform: translateX(-200px) rotate(360deg);
+       opacity: 0;
+    }
+     50%     {
+        transform: translateX(200px) rotate(-360deg);
+           
+        }
+    
+    100% {
+    transform: translateX(0);
+         }
+    }
+
+    @keyframes moveInright{ 
+        from {
+            color: red;
+        }
+        to {
+            color: violet;
+        }
+        
+        }
+            
